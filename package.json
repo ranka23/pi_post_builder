@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "copy:validation-key": "node scripts/copy-validation-key.mjs",
+    "build": "vite build && npm run copy:validation-key",
     "preview": "vite preview"
   },
   "dependencies": {
