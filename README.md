@@ -41,7 +41,7 @@ Generate scroll-stopping, emoji-packed referral posts for Pi Network in seconds.
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/<org>/pi-referral-post-generator.git
+git clone https://github.com/ranka23/pi_post_builder.git
 cd pi-referral-post-generator
 npm install
 ```
