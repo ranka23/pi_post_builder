@@ -1,11 +1,14 @@
+# Pi Post Builder Netlify headers
+
+# Force browser MIME handling for JavaScript modules when served by Netlify.
+/assets/*.js
+  Content-Type: text/javascript; charset=utf-8
+
 /*.js
-  Content-Type: application/javascript; charset=utf-8
+  Content-Type: text/javascript; charset=utf-8
 
 /*.mjs
-  Content-Type: application/javascript; charset=utf-8
+  Content-Type: text/javascript; charset=utf-8
 
-/*.css
-  Content-Type: text/css; charset=utf-8
-
-/index.html
-  Content-Type: text/html; charset=utf-8
+/*.wasm
+  Content-Type: application/wasm

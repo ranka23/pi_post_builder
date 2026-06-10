@@ -1,5 +1,4 @@
-/*
-  https://www.netlify.com/docs/redirects/
-*/
-/api/*  https://api.example.com/:splat  200
+# Pi Post Builder Netlify redirects
+
+# Keep the Vite React app working when users refresh or deep-link routes.
 /*    /index.html   200
