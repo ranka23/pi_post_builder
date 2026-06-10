@@ -160,7 +160,7 @@ export default function App() {
               Configure Your Post
             </h2>
             <p className="mt-1 text-sm text-gray-500">
-              Enter your details below and we'll generate 3 ready-to-share templates
+              Enter your details below and we'll generate ready-to-share templates
             </p>
           </div>
 
@@ -262,7 +262,7 @@ export default function App() {
               {username.trim() ? (
                 <span className="flex items-center justify-center gap-2">
                   <span>🚀</span>
-                  Generate 3 Templates
+                  Generate Templates
                   <span>🚀</span>
                 </span>
               ) : (
