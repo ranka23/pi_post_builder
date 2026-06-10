@@ -27,8 +27,7 @@ export default function App() {
     const isPi = isInPiBrowser();
     setInPiBrowser(isPi);
     if (isPi) {
-      // Set sandbox to false for production
-      initPiSDK(false);
+      initPiSDK(false).catch(() => undefined);
     }
   }, []);
 

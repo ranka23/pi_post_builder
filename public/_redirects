@@ -1,1 +1,5 @@
+/*
+  https://www.netlify.com/docs/redirects/
+*/
+/api/*  https://api.example.com/:splat  200
 /*    /index.html   200
